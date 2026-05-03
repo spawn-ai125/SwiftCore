@@ -1,19 +1,24 @@
-# SwiftCore AI 🚀
+Set-Content README.md @"
+# ⚡ SwiftCore: Multi-Language Logic Generator
 
-**SwiftCore** is a high-performance, lightweight NLP-to-Code generation engine designed for developers and automation architects. It bridges the gap between natural language intent and multi-language executable code.
+![Version](https://img.shields.io/badge/Version-v1.1.0-blue?style=for-the-badge)
+![Language](https://img.shields.io/badge/Core-Python-3776AB?style=for-the-badge&logo=python)
+![Supported](https://img.shields.io/badge/Targets-Python%20|%20C%2B%2B%20|%20Go-green?style=for-the-badge)
 
-## 🌟 Key Features
-- **Deterministic Logic:** Unlike standard LLMs, SwiftCore uses a hybrid regex-template architecture for zero-error syntax generation.
-- **Multi-Language Support:** High-fidelity code generation for **C++** and **Python**.
-- **Minimal Interaction:** Designed for "Zero-Contact" development environments.
-- **Fast & Lightweight:** Operates as a single-module core without heavy dependencies.
+**SwiftCore** is a lightweight intent-parsing engine that translates natural language prompts into structured source code across multiple programming languages.
 
-## 🛠 Technical Architecture
-SwiftCore operates through a two-stage pipeline:
-1. **Semantic Intent Parser (SIP):** Analyzes the prompt to extract actions, parameters, and iterations.
-2. **Universal Transpiler Engine (UTE):** Maps extracted intents to language-specific Abstract Syntax Trees (AST).
+## 🚀 Supported Languages
+- **Python**: Modular script generation.
+- **C++**: High-performance system code templates.
+- **Go (Golang)**: Scalable and concurrent backend logic. (New in v1.1.0)
 
-## 🚀 Quick Start
-```python
-from swiftcore import SwiftCore
+## 🛠 How It Works
+SwiftCore uses a **Zero-Contact** orchestration approach to analyze intent and map it to domain-specific syntax:
+1. **Parser**: Analyzes the prompt for actions (loops, functions, prints).
+2. **IR (Intermediate Representation)**: Maps raw intent to a logic dictionary.
+3. **Generator**: Renders the final code using language-specific templates.
 
+---
+**Developer:** [spawn-ai125](https://github.com/spawn-ai125)  
+**Philosophy:** Minimal Interaction, Maximum Automation.
+"@
